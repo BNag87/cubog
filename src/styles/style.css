@@ -1,8 +1,24 @@
+body {
+  background: rgb(36, 23, 77);
+  color: rgb(255, 255, 134);
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: rgb(212, 175, 55);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 .topbar {
-  background: yellow;
+  background: rgb(93, 80, 134);
   width: 100%;
+  align-items: center;
+  text-align: center;
 }
 
 header {
-  background: red;
+  background: rgb(93, 80, 134);
 }/*# sourceMappingURL=style.css.map */

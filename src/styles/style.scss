@@ -1,7 +1,27 @@
+@import "../styles/variables.scss";
+
+body{
+    background: $PalMain;
+    color: $PalText;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: $PalTrim;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .topbar{
-    background: yellow;
+    background:$PalPlate;
     width: 100%;
+    align-items: center;
+    text-align: center; 
 }
+
 header{
-    background: red;
+    background: $PalPlate;
 }
+
