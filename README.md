@@ -1,13 +1,11 @@
 # cubog
-----------
     A collection of games. to test coding ability
-----------
-Made with React.
-----------
+    Made with React.
+
 ## NODE PACKAGES:
 
     1 - sass 
-----------
+    2 - react-router-dom
 
 ## Available Scripts
 In the project directory, you can run:
