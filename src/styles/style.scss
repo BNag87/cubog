@@ -38,3 +38,6 @@ header{
     background: $PalPlate;
 }
 
+button {
+    @include std_btn();
+}

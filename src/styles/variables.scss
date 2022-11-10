@@ -9,6 +9,18 @@ $PalFrame: rgb(188, 180, 180); //div atop div
 $titleFont: Arial, Helvetica, sans-serif; //for h1 etc
 $bodyFont: Courier, Helvetica, sans-serif; //for paras
 
+// FONT MODIFIERS
 $s-caps: small-caps; //shorthand for font-variation
 
+// MIXINS - Used to re-use css rules for multiple elements
 
+@mixin std_btn {
+    // Rules for a standard buttong
+    width: 100px;
+    height: 50px;
+    background-color: $PalFrame;
+    border: none;
+    border-radius: 7px;
+    color: $PalMain;
+    font-size: 16px; 
+}
