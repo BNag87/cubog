@@ -1,4 +1,6 @@
 @import "../styles/variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
 
 body{
     background: $PalMain;
@@ -9,7 +11,7 @@ a{
     text-decoration: none;
     font-weight: bold;
     font-variant: small-caps;
-    color: $PalTrim;
+    color: lightcoral;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -25,12 +27,12 @@ a{
 }
 
 h1, h2, h3{
-    font-family: $titleFont;
+    font-family: 'Heebo', sans-serif;
     font-variant: $s-caps;
 }
 
 p{
-    font-family: $bodyFont;
+    font-family: 'Heebo', sans-serif;
     font-size: 18px;
 }
 

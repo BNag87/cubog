@@ -1,9 +1,10 @@
+
 // COLOUR Pallet for project.
-$PalMain: rgb(36,23,77); //background
-$PalPlate: rgb(93, 80, 134); //divs atop bg
-$PalTrim: rgb(212, 175, 55); //border colour
-$PalText: rgb(255, 255, 134); //text colour
-$PalFrame: rgb(188, 180, 180); //div atop div
+$PalMain: rgb(160,196,255); //background
+$PalPlate: rgb(155, 246, 255); //divs atop bg
+$PalTrim: rgb(202, 255, 191); //border colour
+$PalText: rgb(53, 55, 82); //text colour
+$PalFrame: rgb(255, 198, 255); //div atop div
 
 // FONTS
 $titleFont: Arial, Helvetica, sans-serif; //for h1 etc
@@ -21,7 +22,8 @@ $s-caps: small-caps; //shorthand for font-variation
     background-color: $bgColour;
     border: none;
     border-radius: 7px;
-    color: $PalMain;
+    color: $PalText;
     font-size: $fontSize; 
     box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+
 }
