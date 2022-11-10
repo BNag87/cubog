@@ -4,12 +4,17 @@ export const Topbar = () => {
 
     return(
         <>
-        <div className="topbar">
-            <a href = "/">Sausage</a>
-            <a href = "/home">The Past</a>
-            <a href = "/home">Chain</a>
-            <h2>This is the TopBar component</h2>
-            <p>Quest for the sausage fountain</p>
+            <div className="topbar">
+                <div className="InvisiDiv">
+                <a href = "/">Sausage</a>
+                <a href = "/home">The Past</a>
+                <a href = "/home">Chain</a>
+            </div>
+            
+            <div className="InvisiDiv">
+                <h1>This is the TopBar component</h1>
+            </div>
+
         </div>
         </>
     )

@@ -1,20 +1,19 @@
 import React from "react";
 import { Routes, Route} from 'react-router-dom'
+import "./styles/style.css"
+
 //CUSTOM COMPONENT IMPORTS
 import { Topbar } from "./components/C-Topbar";
 
 function App() {
   return (
     <>
-    
     <Topbar/>
-      <hr/>
       <header>
-      <h1>CUBOG!</h1>
-      <p>This area is the App.js component</p>
-      <button>A button</button>
-      <hr/>
-    </header>
+        <h2>Cubog!</h2>
+        <p>This area is the App.js component</p>
+        <button>A button</button>
+      </header>
 
     <p>Lorem ipsum dolor sit amet.</p>
     

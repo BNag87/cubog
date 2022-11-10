@@ -1,5 +1,14 @@
-// Pallet for project.
-$PalMain: rgb(36,23,77);
-$PalPlate: rgb(93, 80, 134);
-$PalTrim: rgb(212, 175, 55);
-$PalText: rgb(255, 255, 134);
+// COLOUR Pallet for project.
+$PalMain: rgb(36,23,77); //background
+$PalPlate: rgb(93, 80, 134); //divs atop bg
+$PalTrim: rgb(212, 175, 55); //border colour
+$PalText: rgb(255, 255, 134); //text colour
+$PalFrame: rgb(188, 180, 180); //div atop div
+
+// FONTS
+$titleFont: Arial, Helvetica, sans-serif; //for h1 etc
+$bodyFont: Courier, Helvetica, sans-serif; //for paras
+
+$s-caps: small-caps; //shorthand for font-variation
+
+
