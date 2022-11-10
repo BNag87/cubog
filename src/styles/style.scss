@@ -34,10 +34,15 @@ p{
     font-size: 18px;
 }
 
+button {
+    @include std_btn(red,16px);
+}
+
 header{
     background: $PalPlate;
 }
 
-button {
-    @include std_btn();
+header button{
+        @include std_btn(white, 16px);
 }
+
