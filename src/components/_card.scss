@@ -1,7 +1,7 @@
 .card {
     display: block;
     padding: $base-padding;
-    border: $base-border-thickness solid #ddd;
+    border: $base-border-thickness solid $PalText;
     box-shadow: $base-box-shadow;
 
     .card-title {

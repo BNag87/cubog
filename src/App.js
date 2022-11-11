@@ -1,11 +1,11 @@
 import React from "react";
 import { Routes, Route} from 'react-router-dom'
 
-//SASS IMPORTS
-import "./styles/scss/style.css";
-
 //CUSTOM COMPONENT IMPORTS
 import { Topbar } from "./components/C-Topbar";
+
+//SASS IMPORTS
+import "./styles/scss/style.css";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
     </header>
 
     <h2>Cards</h2>
-    <div className="cards">
+    <div className="card">
       <h3 className="card-title">This is a card title</h3>
       <p className="card-body">Lorem, <a href="#">ipsum</a> dolor sit amet consectetur adipisicing elit. Voluptatem incidunt placeat animi aspernatur eum cum ullam, omnis veritatis quas necessitatibus.</p>
     </div>
