@@ -1,7 +1,7 @@
 
 // COLOUR Pallet for project.
-$PalMain: rgb(160,196,255); //background
-$PalPlate: rgb(155, 246, 255); //divs atop bg
+$PalMain: rgb(155,246,255); //background
+$PalPlate: rgb(160, 196, 255); //divs atop bg
 $PalTrim: rgb(202, 255, 191); //border colour
 $PalText: rgb(53, 55, 82); //text colour
 $PalFrame: rgb(255, 198, 255); //div atop div
@@ -14,7 +14,6 @@ $bodyFont: Courier, Helvetica, sans-serif; //for paras
 $s-caps: small-caps; //shorthand for font-variation
 
 // MIXINS - Used to re-use css rules for multiple elements
-
 @mixin std_btn($bgColour, $fontSize) {
     // Rules for a standard buttong
     width: 100px;
