@@ -1,4 +1,4 @@
-@import "../styles/_variables.scss";
+@import "../scss/variables";
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
 
 
@@ -47,4 +47,3 @@ header{
 header button{
         @include std_btn(white, 16px);
 }
-
