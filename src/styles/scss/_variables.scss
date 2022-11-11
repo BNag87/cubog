@@ -13,6 +13,20 @@ $bodyFont: Courier, Helvetica, sans-serif; //for paras
 // FONT MODIFIERS
 $s-caps: small-caps; //shorthand for font-variation
 
+// SPACING
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// BORDERS
+$base-border-thickness: 1px;
+$base-radius: 20px;
+
+// BOX-SHADOW
+$base-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+// FONT SIZES
+$base-font-size: 1rem;
+
 // MIXINS - Used to re-use css rules for multiple elements
 @mixin std_btn($bgColour, $fontSize) {
     // Rules for a standard buttong
