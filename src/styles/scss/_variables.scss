@@ -5,6 +5,17 @@ $PalTrim: rgb(202, 255, 191); //border colour
 $PalText: rgb(53, 55, 82); //text colour
 $PalFrame: rgb(255, 198, 255); //div atop div
 
+// PALETTE
+$colours: (
+    "main": $PalMain,
+    "plate": $PalPlate,
+    "trim": $PalTrim,
+    "text": $PalText,
+    "frame": $PalFrame,
+    "blk": rgb(0,0,0),
+    "wht": rgb(255,255,255),
+)
+
 // FONTS
 $titleFont: Arial, Helvetica, sans-serif; //for h1 etc
 $bodyFont: Courier, Helvetica, sans-serif; //for paras
