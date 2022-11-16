@@ -1,7 +1,8 @@
 @import "../scss/variables";
 @import "../../components/card";
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
 @use "sass:math";
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+
 
 body{
     background: $PalMain;
