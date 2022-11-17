@@ -1,6 +1,12 @@
-import React from "react";
+import { React, useState } from "react";
 import "../styles/scss/style.css";
+import { Drawer, Box, Typography, IconButton } from "@mui/material"
+// import { MenuIcon } from '@mui/icons-material/Menu'; WORK FROM HERE
+
 export const Topbar = () => {
+
+//useState to control top drawer component
+const [drawerOpen, set_drawerOpen] = useState(false)
 
     return(
         <>
@@ -14,6 +20,18 @@ export const Topbar = () => {
             <div className="InvisiDiv">
                 <h1>This is the TopBar component</h1>
             </div>
+
+            <IconButton size="large" edge="start" color="inherit" aria-label="logo" onClick={() => set_drawerOpen(true)}>
+                <MenuIcon />    
+            </IconButton>
+
+            <Drawer anchor="top" open={drawerOpen} onClose={() => set_drawerOpen(false)}>
+                <Box p={2} width="250px" textAlign="center" role="presentation">
+                    <Typography variant="h6" component="div">
+                        Top Panel
+                    </Typography>
+                </Box>
+            </Drawer>
 
         </div>
         </>
