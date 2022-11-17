@@ -85,9 +85,10 @@ button:hover {
   rotate: -20deg;
   color: white;
   font-weight: bolder;
-  border: goldenrod 2px solid;
-  box-shadow: rgba(0, 0, 0, 0.7) 4px 4px;
+  border: goldenrod 3px solid;
+  box-shadow: rgba(0, 0, 0, 0.7) 4px 4px 6px;
   font-size: 18px;
+  cursor: pointer;
 }
 
 @-webkit-keyframes AN_btnHover {
