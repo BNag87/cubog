@@ -47,7 +47,17 @@ button{
 
 .optBtn{
     @include std_btn(blue, 16px);
-    animation: AN_btnHover 2s;
+    transition: 0.3s;
+    color: lightgreen;
+
+    &:hover{
+        background-color: rgb(60,60,255);
+        rotate: (-20deg);
+        color: white;
+        font-weight: bolder;
+        border: white 1px solid;
+        box-shadow: rgba(0,0,0,0.7) 4px 4px;
+    }
 }
 
 @keyframes AN_btnHover {

@@ -77,8 +77,17 @@ button:hover {
   color: rgb(53, 55, 82);
   font-size: 16px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-  -webkit-animation: AN_btnHover 2s;
-          animation: AN_btnHover 2s;
+  transition: 0.3s ease-out;
+  color: lightgreen;
+}
+.optBtn:hover {
+  background-color: rgb(60, 60, 255);
+  rotate: -20deg;
+  color: white;
+  font-weight: bolder;
+  border: goldenrod 2px solid;
+  box-shadow: rgba(0, 0, 0, 0.7) 4px 4px;
+  font-size: 18px;
 }
 
 @-webkit-keyframes AN_btnHover {
