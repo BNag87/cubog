@@ -1,6 +1,5 @@
 @import "../scss/variables";
 @import "../../components/card";
-@use "sass:math";
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
 
 
@@ -38,9 +37,22 @@ p{
     font-size: 18px;
 }
 
-button {
+button{
     @include std_btn(red,16px);
+    &:hover{
+        animation-name: "AN_btnHover";
+        animation-duration: 2s;
+    }
 }
+
+.optBtn{
+    @include std_btn(blue, 16px);
+    animation: AN_btnHover 2s;
+}
+
+@keyframes AN_btnHover {
+    to {background-color: rgb(200,100,100)};
+} 
 
 header{
     background: $PalPlate;

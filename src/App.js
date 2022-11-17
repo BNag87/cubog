@@ -29,7 +29,7 @@ function App() {
  
     <hr/>
 
-    <button>Outer Button</button>
+    <button className="optBtn">Outer Button</button>
     
     {/* ROUTES NEED TO BE LINKED IN ANOTHER PLACE. 
     ENABLE/DISABLE THOSE TOO TO PREVENT ERRORS */}

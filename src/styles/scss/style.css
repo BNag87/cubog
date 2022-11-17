@@ -56,12 +56,42 @@ button {
   height: 50px;
   background-color: red;
   border: none;
-  border-radius: 7px;
+  border-radius: 10px;
   color: rgb(53, 55, 82);
   font-size: 16px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
+button:hover {
+  -webkit-animation-name: "AN_btnHover";
+          animation-name: "AN_btnHover";
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
 
+.optBtn {
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  color: rgb(53, 55, 82);
+  font-size: 16px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  -webkit-animation: AN_btnHover 2s;
+          animation: AN_btnHover 2s;
+}
+
+@-webkit-keyframes AN_btnHover {
+  to {
+    background-color: rgb(200, 100, 100);
+  }
+}
+
+@keyframes AN_btnHover {
+  to {
+    background-color: rgb(200, 100, 100);
+  }
+}
 header {
   background: rgb(160, 196, 255);
 }
@@ -71,7 +101,7 @@ header button {
   height: 50px;
   background-color: white;
   border: none;
-  border-radius: 7px;
+  border-radius: 10px;
   color: rgb(53, 55, 82);
   font-size: 16px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
