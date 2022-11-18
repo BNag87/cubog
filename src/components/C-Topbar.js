@@ -21,7 +21,7 @@ const [drawerOpen, set_drawerOpen] = useState(false)
                 <h1>This is the TopBar component</h1>
             </div>
 
-            <IconButton size="large" edge="start"  color="inherit" aria-label="logo" onClick={() => set_drawerOpen(true)}>
+            <IconButton sx={{ width: "100px", height: "64px", borderRadius: 4,}} size="medium" edge="start"  color="inherit" aria-label="logo" onClick={() => set_drawerOpen(true)}>
                 Games  
             </IconButton>
 
