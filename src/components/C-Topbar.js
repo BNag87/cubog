@@ -1,7 +1,7 @@
 import { React, useState } from "react";
 import "../styles/scss/style.css";
-import { Drawer, Box, Typography, IconButton } from "@mui/material"
-// import { MenuIcon } from '@mui/icons-material/Menu'; WORK FROM HERE
+import { Drawer, Box, Typography, IconButton } from "@mui/material";
+
 
 export const Topbar = () => {
 
@@ -22,7 +22,7 @@ const [drawerOpen, set_drawerOpen] = useState(false)
             </div>
 
             <IconButton size="large" edge="start" color="inherit" aria-label="logo" onClick={() => set_drawerOpen(true)}>
-                <MenuIcon />    
+                FUckin TEXT!    
             </IconButton>
 
             <Drawer anchor="top" open={drawerOpen} onClose={() => set_drawerOpen(false)}>
