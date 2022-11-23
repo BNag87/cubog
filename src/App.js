@@ -3,6 +3,7 @@ import { Routes, Route} from 'react-router-dom'
 
 //CUSTOM COMPONENT IMPORTS
 import { Topbar } from "./components/C-Topbar";
+import { gC_NaC } from "./components/gC-NaC";
 
 //SASS IMPORTS
 import "./styles/scss/style.css";
@@ -36,16 +37,14 @@ function App() {
     {/* ROUTES NEED TO BE LINKED IN ANOTHER PLACE. 
     ENABLE/DISABLE THOSE TOO TO PREVENT ERRORS */}
     
-    {/* 
       <Routes> 
           
           WAIT UNTIL YOU NEED ROUTES BEFORE DECOMMENTING THIS
-          <Route path="/" element={ <Main/> } />
-          <Route path="NPCGenerator" element={ <NpcGenerator/>} />
-          <Route path="WildSurges" element={ <WildSurges/>} />
-          <Route path="MerchantList" element={ <MerchantGenerator/>} />     
+          {/* <Route path="/" element={ <Main/> } /> */}
+          <Route path="gC_NaC" element={ <gC_NaC/>} />
+          
       </Routes>
-    */}
+
     </>
   );
 }

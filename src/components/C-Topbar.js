@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import "../styles/scss/style.css";
 import { Drawer, Box, Typography, IconButton } from "@mui/material";
+import { Link } from "react-router-dom";
 
 
 export const Topbar = () => {
@@ -32,8 +33,14 @@ const [drawerOpen, set_drawerOpen] = useState(false)
                     </Typography>
 
                     <div className="invisiDiv">
-                        <div className="nacCard">1</div>                       
-                        <div className="nacCard">2</div>
+                        <div className="nacCard">Home</div>                       
+                        
+                        <div className="nacCard">
+                        <Link to="gC_NaC">
+                                Fuckin Tosh
+                            </Link>
+                        </div>
+                        
                         <div className="nacCard">3</div>
                     </div>
                 
