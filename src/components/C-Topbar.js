@@ -30,6 +30,13 @@ const [drawerOpen, set_drawerOpen] = useState(false)
                     <Typography variant="h6" component="div">
                         Top Panel
                     </Typography>
+                    <Box p={2} width="200px" textAlign="center" role="presentation">
+                        <>
+                        <div className="nacCard">1</div>                       
+                        <div className="nacCard">2</div>
+                        <div className="nacCard">3</div>
+                        </>
+                    </Box>
                 </Box>
             </Drawer>
 
