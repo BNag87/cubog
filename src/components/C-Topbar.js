@@ -9,6 +9,10 @@ export const Topbar = () => {
 //useState to control top drawer component
 const [drawerOpen, set_drawerOpen] = useState(false)
 
+const marginStyle = {
+    margin: "15px"
+}
+
     return(
         <>
             <div className="topbar">
@@ -22,9 +26,13 @@ const [drawerOpen, set_drawerOpen] = useState(false)
                 <h1>This is the TopBar component</h1>
             </div>
 
-            <IconButton sx={{ width: "100px", height: "64px", borderRadius: 4,}} size="medium" edge="start"  color="inherit" aria-label="logo" onClick={() => set_drawerOpen(true)}>
+            {/* <IconButton sx={{ width: "100px", height: "64px", borderRadius: 4,}} size="medium" edge="start"  color="inherit" aria-label="logo" onClick={() => set_drawerOpen(true)}>
                 Games  
-            </IconButton>
+            </IconButton> */}
+
+            <button className="optBtn" style={marginStyle} onClick={() => set_drawerOpen(true)}>
+                Games
+            </button>
 
             <Drawer anchor="top" open={drawerOpen} onClose={() => set_drawerOpen(false)}>
                 <Box p={2} width="100%" textAlign="left" role="presentation">
