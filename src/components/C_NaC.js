@@ -1,7 +1,7 @@
 import { React } from "react";
 import "../styles/scss/style.css";
 
-export const gC_NaC = () => {
+export const NaC = () => {
 
     return(
         <>

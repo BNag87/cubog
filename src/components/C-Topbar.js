@@ -33,13 +33,17 @@ const [drawerOpen, set_drawerOpen] = useState(false)
                     </Typography>
 
                     <div className="invisiDiv">
-                        <div className="nacCard">Home</div>                       
+                        <Link to="/">    
+                            <div className="nacCard">
+                                Home
+                            </div>  
+                        </Link>                     
                         
-                        <div className="nacCard">
-                        <Link to="gC_NaC">
+                        <Link to="NaC">
+                            <div className="nacCard">
                                 Fuckin Tosh
-                            </Link>
-                        </div>
+                            </div>
+                        </Link>
                         
                         <div className="nacCard">3</div>
                     </div>

@@ -3,7 +3,8 @@ import { Routes, Route} from 'react-router-dom'
 
 //CUSTOM COMPONENT IMPORTS
 import { Topbar } from "./components/C-Topbar";
-import { gC_NaC } from "./components/gC-NaC";
+import { Main } from "./components/C_Main";
+import { NaC } from "./components/C_NaC";
 
 //SASS IMPORTS
 import "./styles/scss/style.css";
@@ -14,6 +15,7 @@ function App() {
     <>
     <Topbar/>
     
+    {/* 
     <header>
       <h2>Cubog!</h2>
       <p>This area is the App.js component</p>
@@ -33,13 +35,12 @@ function App() {
     <hr/>
 
     <button className="optBtn">optBtn</button>
-    
-    {/* ROUTES NEED TO BE LINKED IN ANOTHER PLACE. 
+    ROUTES NEED TO BE LINKED IN ANOTHER PLACE. 
     ENABLE/DISABLE THOSE TOO TO PREVENT ERRORS */}
     
       <Routes> 
           <Route path="/" element={ <Main/> } />
-          <Route path="gC_NaC" element={ <gC_NaC/>} />
+          <Route path="NaC" element={ <NaC/>} />
       </Routes>
 
     </>
