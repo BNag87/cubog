@@ -38,11 +38,8 @@ function App() {
     ENABLE/DISABLE THOSE TOO TO PREVENT ERRORS */}
     
       <Routes> 
-          
-          WAIT UNTIL YOU NEED ROUTES BEFORE DECOMMENTING THIS
-          {/* <Route path="/" element={ <Main/> } /> */}
+          <Route path="/" element={ <Main/> } />
           <Route path="gC_NaC" element={ <gC_NaC/>} />
-          
       </Routes>
 
     </>
