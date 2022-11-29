@@ -114,6 +114,22 @@ button:hover {
   box-shadow: rgba(0, 0, 0, 0.7) 4px 4px;
 }
 
+.X {
+  color: red;
+}
+
+.O {
+  color: blue;
+}
+
+.squares {
+  background: #272727;
+  border: none;
+  font-size: 5rem;
+  cursor: pointer;
+  outline: none;
+}
+
 @-webkit-keyframes AN_btnHover {
   to {
     background-color: rgb(200, 100, 100);

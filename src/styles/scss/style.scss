@@ -88,6 +88,21 @@ button{
     }
 }
 
+.X {
+    color: red;
+}
+.O {
+    color: blue;
+}
+
+.squares {
+    background: #272727;
+    border: none;
+    font-size: 5rem;
+    cursor: pointer;
+    outline: none;
+}
+
 @keyframes AN_btnHover {
     to {background-color: rgb(200,100,100)};
 } 
