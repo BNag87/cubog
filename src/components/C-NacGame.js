@@ -21,6 +21,26 @@ export const Game = () => {
         setStepNumber(historyPoint.length);
         setXisNext(!xIsNext);        
     }
+
+    const jumpTo = (step) => {
+        setStepNumber(step);
+        setXisNext(step % 2 === 0);
+    };
+
+    const renderMove = () => {
+        history.map((_step, move) => {
+            const destination = move ? `Go to move #${move}` : "Go to Start";
+            return(
+                <li key ={move}>
+                    <button onClick={() => jumpTo(move)}>
+                        {destination}
+                    </button>
+                </li>  
+
+            )
+        })
+    }
+
     return(
         <>
             <h1>React Noughts & Crosses - With Hooks</h1>
